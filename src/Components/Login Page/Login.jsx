@@ -38,14 +38,14 @@ const Login = () => {
             <form onSubmit={handleSubmit}>
                 <div className="login-section">
                     <h1>LOGIN</h1>
-                    <label className='username'>Username</label>
+                    <label className='username'>Username (admin)</label>
                     <input
                         type="text"
                         placeholder='admin'
                         value={username}
                         onChange={(e) => setUsername(e.target.value)} />
                     <br />
-                    <label>Password</label>
+                    <label>Password (123)</label>
                     <input
                         type="password"
                         placeholder='123'
