@@ -1,0 +1,90 @@
+*{
+    color: white;
+}
+
+/* MAIN STYLES */
+.aboutMain{
+    margin-top: 10px
+}
+@media screen and (min-width: 601px) {
+    .aboutMain{
+        margin-top: -60px
+    }
+}
+
+.explore {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin: 50px;
+}
+
+.explore h2{
+    margin-bottom: 40px;
+    color: white;
+}
+.explore img {
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+@media screen and (min-width: 601px) {
+    .explore {
+        margin-top: 200px;
+        justify-content: left;
+    }
+    .explanation .p1 {
+        margin-top: 240px;
+        width: 200px;
+    }
+
+    .explore img {
+        float: left;
+        height: 400px;
+        width: 600px;
+    }
+}
+
+
+.explanation{
+    margin: 50px;
+}
+.hr{
+    display: flex;
+    justify-content: center;
+}
+
+.explanation p{
+    color: white;
+}
+
+@media screen and (min-width:601px) {
+    .aboutMain{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .explanation .p1 {
+        width: 100px;
+    }
+}
+
+@media screen and (min-width:601px) and (max-width:860px){
+    .aboutMain{
+        position: absolute;
+    }
+}
+
+.learn{
+    border: none;
+    border-radius: 20px;
+    color: black;
+    transition-duration: 0.5s;
+}
+.learn:hover{
+    transform: scale(1.15);
+    transform: rotateX(360deg);
+}

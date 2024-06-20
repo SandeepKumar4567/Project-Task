@@ -1,0 +1,298 @@
+* {
+    color: white;
+}
+* p{
+    color: white;
+}
+
+/* Main Styles */
+/* Section 1 Styles */
+
+
+@media screen and (min-width: 600px) and (max-width: 870px) {
+    .section1 {
+        margin-top: 1100px;
+    }
+    .explanation{
+        margin-top: -250px;
+    }
+    .aboutMain{
+        display: flex;
+        flex-direction: column;
+    }
+    .navbar{
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        grid-template-rows: auto auto auto auto;
+    }
+    .backgroundsection{
+        margin-right: 200px;
+        margin-top: 80px;
+    }
+    .background p{
+        font-size: 30px;
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 823px){
+    .navbar{
+        margin-left: 50px;
+    }
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+.section1 p {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+}
+
+.section1 h1 {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+
+.section2 {
+    background-color: black;
+}
+
+.list1 {
+    margin-left: 10px;
+    color: white;
+}
+
+.icon1 {
+    font-size: 20px;
+}
+
+.listItems {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media screen and (min-width: 601px) {
+    .listItems {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        column-gap: 100px;
+        row-gap: 50px;
+        margin-top: 70px;
+    }
+}
+
+.listItem1 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+}
+
+.listItem1:hover {
+    transform: scale(1.50);
+}
+
+.listItem2 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem2:hover {
+    transform: scale(1.50);
+}
+
+.listItem3 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem3:hover {
+    transform: scale(1.50);
+}
+
+.listItem4 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem4:hover {
+    transform: scale(1.50);
+}
+
+.listItem5 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem5:hover {
+    transform: scale(1.50);
+}
+
+.listItem6 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem6:hover {
+    transform: scale(1.50);
+}
+
+.listItem7 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem7:hover {
+    transform: scale(1.50);
+}
+
+.listItem8 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem8:hover {
+    transform: scale(1.50);
+}
+
+.listItem9 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem9:hover {
+    transform: scale(1.50);
+}
+
+.listItem10 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem10:hover {
+    transform: scale(1.50);
+}
+
+.listItem11 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem11:hover {
+    transform: scale(1.50);
+}
+
+.listItem12 {
+    display: flex;
+    align-items: center;
+    transition-duration: 0.5s;
+
+}
+
+.listItem12:hover {
+    transform: scale(1.50);
+}
+
+
+/* Section 2 Styles */
+
+.cardlist {
+    display: flex;
+    justify-content: center;
+    row-gap: 50px;
+    column-gap: 50px;
+}
+
+.cardlist1 {
+    transition-duration: 0.5s;
+}
+
+.cardlist1:hover {
+    transform: scale(1.05);
+    box-shadow: 0 3px 8px 0 rgb(255, 255, 255), 0 6px 20px 0 rgba(255, 255, 255, 0.999);
+    /* box-shadow: 8px 8px rgb(196, 196, 196); */
+}
+
+/* Section 3 Styles */
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 601px) {
+    .section-3-1 {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 100px;
+        row-gap: 50px;
+    }
+}
+
+.ourproject {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+@media screen and (min-width: 601px) and (max-width: 1150px) {
+    .section-3-1{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    width: 320px;
+    padding: 30px;
+    transition-duration: 0.5s;
+}
+
+.projects:hover {
+    transform: scale(1.05);
+
+}
+
+.projects img {
+    transition-duration: 0.5s;
+}
+
+.projects img:hover {
+    transform: scale(1.15);
+}
