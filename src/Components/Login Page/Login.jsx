@@ -13,7 +13,7 @@ const Login = () => {
     const handleSubmit = (e) => {
         e.preventDefault();
 
-        if (username === 'admin' && password === 'password') {
+        if (username === 'admin' && password === '123') {
             setTab(true);
             alert('Login successful!');
         } else {
@@ -41,12 +41,14 @@ const Login = () => {
                     <label className='username'>Username</label>
                     <input
                         type="text"
+                        placeholder='admin'
                         value={username}
                         onChange={(e) => setUsername(e.target.value)} />
                     <br />
                     <label>Password</label>
                     <input
                         type="password"
+                        placeholder='123'
                         value={password}
                         onChange={(e) => setPassword(e.target.value)} />
                     <br />
